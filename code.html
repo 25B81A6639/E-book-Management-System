@@ -1,0 +1,153 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book Management System</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #34495e;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .container {
+            width: 85%;
+            margin: 30px auto;
+        }
+
+        .intro {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        .ebooks {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .book {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .book h3 {
+            color: #2c3e50;
+        }
+
+        .book button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .book button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>E-Book Management System</h1>
+        <p>Manage and explore digital books easily</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">E-Books</a>
+        <a href="#">Categories</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="intro">
+            <h2>Welcome to the E-Book Management System</h2>
+            <p>
+                This system is designed to manage digital books efficiently.
+                Users can browse, search and access available e-books.
+            </p>
+        </section>
+
+        <h2>Available E-Books</h2>
+
+        <div class="ebooks">
+
+            <div class="book">
+                <h3>Introduction to Programming</h3>
+                <p><strong>Author:</strong> John Smith</p>
+                <p><strong>Category:</strong> Programming</p>
+                <button>Read E-Book</button>
+            </div>
+
+            <div class="book">
+                <h3>Web Development Basics</h3>
+                <p><strong>Author:</strong> David Johnson</p>
+                <p><strong>Category:</strong> Web Development</p>
+                <button>Read E-Book</button>
+            </div>
+
+            <div class="book">
+                <h3>Database Management</h3>
+                <p><strong>Author:</strong> Robert Brown</p>
+                <p><strong>Category:</strong> Database</p>
+                <button>Read E-Book</button>
+            </div>
+
+            <div class="book">
+                <h3>Software Engineering</h3>
+                <p><strong>Author:</strong> James Wilson</p>
+                <p><strong>Category:</strong> Software Engineering</p>
+                <button>Read E-Book</button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 E-Book Management System | Academic Project</p>
+    </footer>
+
+</body>
+</html>
